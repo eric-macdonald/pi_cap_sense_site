@@ -1,0 +1,12 @@
+<html>
+	<head>
+		<link rel="stylesheet" href='/static/style.css' />
+	</head>
+
+
+	<body>
+	        <?$result = `/opt/vc/bin/vcgencmd measure_temp`;?>
+                <P>The result is:</P>
+                <PRE><?=$result?></PRE>
+	</body>
+</html>
